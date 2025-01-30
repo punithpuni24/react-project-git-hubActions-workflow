@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v4.6.0  # Use the upload-artifact action version 4.6.0
         with:
           name: build  # Name of the artifact
-          path: build/  # Path to the build files
+          path: dist/  # Path to the dist files
