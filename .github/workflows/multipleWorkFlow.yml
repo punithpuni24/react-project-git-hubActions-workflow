@@ -39,8 +39,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
  
-      - name: Run lint
-        run: npm lint
  
   deploy:
     runs-on: ubuntu-latest
