@@ -5,3 +5,5 @@ on:
 jobs:
     run-reuseable-workflow:
       uses: ./.github/workflows/reusable-workflow.yml
+      with:
+       message: 'This run from reusable workflow'
