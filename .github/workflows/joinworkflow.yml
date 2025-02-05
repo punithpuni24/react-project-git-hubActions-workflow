@@ -3,7 +3,7 @@ name: Join Workflow Example
 on:
   push:
     branches:
-      - main
+      - master
  
 jobs:
   build:
