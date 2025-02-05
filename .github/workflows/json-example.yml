@@ -19,4 +19,4 @@ jobs:
         run: npm install
  
       - name: Run JSON processing script
-        run: node scripts/processData.js
+        run: node processData.js
