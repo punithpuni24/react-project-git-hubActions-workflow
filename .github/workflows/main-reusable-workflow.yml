@@ -1,0 +1,8 @@
+name: main reusable Workflow
+on:
+  push:  
+jobs:
+  trigger_first_workflow:
+    uses: ./.github/workflows/reusable-workflow.yml
+    with:
+     message: 'Hello calling from main wf'
