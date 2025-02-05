@@ -1,0 +1,7 @@
+name: Main CI/CD Workflow
+on:
+ push:
+  branches: [master]
+jobs:
+    run-reuseable-workflow:
+      uses: ./.github/workflows/reusable-workflow.yml
